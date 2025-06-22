@@ -1,44 +1,28 @@
-Braj Darshan – Tourism Wiki Website 🕌🌿
-This project is a major component of the Advanced Software Engineering Course. The goal of this project is to create a fully responsive tourism wiki and guide website focused on the Braj region—a culturally rich and spiritually significant area.
+# 🛕 BrajDarshan. – Explore the Divine Land
 
-🎯 Motivation
-The key objectives of this project are:
+**BrajDarshan** is a tourism-focused wiki and travel assistance platform dedicated to exploring the spiritual and cultural richness of the **Braj region**. Built with **HTML, CSS, JavaScript, PHP, and MySQL**, it offers detailed information about temples, heritage sites, festivals, and traditions. The platform also includes **basic booking features** for accommodations and guided tours, along with a secure **admin panel and login system** for managing content and bookings.
 
-Apply Agile Methodology to plan and develop a structured software project.
+---
 
-Learn how to build a complete tourism-focused web application based on defined System Requirements.
+## ✨ Key Features
 
-💻 Tech Stack & Coding Style
-This project is divided into two core components—Frontend and Backend:
+- 🏛️ Wiki-style information on Braj's tourist attractions and religious sites  
+- ⚙️ Dynamic content and user interactions with JavaScript and PHP  
+- 🛏️ Booking functionality for accommodations or tour services  
+- 🔐 Admin panel with login for managing bookings and site content  
+- 📱 Simple, responsive UI using HTML, CSS, and JavaScript  
+- 🙏 Ideal for pilgrims, tourists, and spiritual seekers  
 
-Frontend Technologies: HTML5, CSS3, Vanilla JavaScript
+---
 
-Backend Technologies: PHP, MySQL
+## 🔧 Tech Stack
 
-Project Management: Agile Scrum-based Methodology
+- **Frontend:** HTML5, CSS3, JavaScript  
+- **Backend:** PHP  
+- **Database:** MySQL  
 
-🌟 Key Features
-A responsive header with a toggleable navigation menu using Vanilla JavaScript.
+---
 
-An interactive homepage showcasing major temples, events, and travel highlights of Braj using Swiper.js sliders.
+## 🔗 Live Demo
 
-A detailed About section describing the Braj region’s historical and spiritual significance using responsive layouts (Flexbox).
-
-A Reviews section where visitors can view and share experiences, enhanced with Swiper.js for touch support.
-
-A Tour Packages section displaying customizable travel plans using CSS Grid.
-
-A Booking form where users can reserve guided tours, integrated with PHP and MySQL for data handling.
-
-A dynamic footer with contact information, quick links, and social media integrations.
-
-👥 User Stories
-As a User, I want a simple and intuitive UI to explore places in the Braj region.
-
-As a User, I want to browse a categorized list of temples, events, and historical sites for my visit.
-
-As a User, I want to view tour package options with full details and compare them easily.
-
-As a User, I want to read and share reviews from other tourists to make informed decisions.
-
-As a User, I want to book a guided tour specifying the destination, arrival, and departure dates via a smooth and secure process.
+[Click here to visit BrajDarshan](https://yourusername.github.io/BrajDarshan/)
