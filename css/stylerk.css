@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&family=Princess+Sofia&display=swap');
+
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-image: url(../images/blur.png); */
+    background-size: cover;
+    font-family: "Fredoka";
+    /* box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); */
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.card_wrapper{
+    position: relative;
+}
+
+.cardrk{
+    position: relative;
+    filter: drop-shadow(0 0 5px #024120ca);
+    bottom: 12%;
+}
+
+.card-image-with-svg-mask{
+    width: 80vw;
+    height: 85vh;
+    background-image: url(../images/radhakrishn.jpeg);
+    background-position: 0%;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    background-attachment: scroll;
+    border-top-left-radius: 2.5rem;
+    border-top-right-radius: 2.5rem;
+    border-bottom-right-radius: 2.5rem;
+    position: relative;
+}
+/* masking*/
+.card-image-with-svg-mask{
+    -webkit-mask: url("../images/rk/Subtract.svg") center / contain no-repeat, url("../images/rk/union.svg") center / contain no-repeat, linear-gradient(#000000 0 0);
+
+    mask-size: 27.8rem, 35rem;
+    mask-position: top center,bottom left;
+    mask-composite: exclude ;
+}
+
+p.text{
+    color: #fff;
+    width: 350px;
+    position: absolute;
+    left: 4%;
+    top: 1%;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+.buttonn{
+    position: absolute;
+    background-color: #a9ff7d;
+    border-radius: 3rem;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 60.5%;
+}
+
+.top-center{
+    width: 200px;
+    height: 75px;
+    top: 0%;
+    right: 0%;
+    left: -0.5%;
+    margin: -59px auto;
+    
+}
+
+.top-center .text{
+    font-size: 19px;
+    font-weight: 950;
+    text-transform: uppercase;
+    /* background: url("image/radhakrishn.jpeg") top / cover no-repeat;
+    background-clip: text;
+    color: transparent; */
+}
+
+.bottom-right{
+    width: 290px;
+    height: 145px;
+    border-radius: 2.5rem;
+    bottom: 1%;
+    left: 1%;
+}
+
+.bottom-right .text{
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    font-weight: 650;
+    color: #fff;
+}
+
+.fa-quote-left, .fa-quote-right{
+    position: absolute;
+    font-size: 40px;
+    color: rgb(245,245,245);
+}
+
+.fa-quote-left{
+    top: -28px;
+    left: -10px;
+}
+
+.fa-quote-right{
+    right: 25px;
+    bottom: -20px;
+}
