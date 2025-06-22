@@ -5,7 +5,7 @@ if (isset($_SESSION['password']) && isset($_SESSION['email'])) {
     <!-- Weather api check -->
     <?php
     // Your OpenWeatherMap API key
-    $apiKey = "eb47852c9a168db2c82732fd24233907";  // Replace with your actual key
+    $apiKey = "YOUR_API_KEY";  // Replace with your actual key
     $city = "Agra";
     $apiUrl = "https://api.openweathermap.org/data/2.5/weather?q={$city}&units=metric&appid={$apiKey}";
 

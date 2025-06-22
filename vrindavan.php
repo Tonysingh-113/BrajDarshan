@@ -1,7 +1,7 @@
 
 <?php
     // Your OpenWeatherMap API key
-    $apiKey = "eb47852c9a168db2c82732fd24233907";  
+    $apiKey = "YOUR_API_KEY";  
     $city = "Vrindavan";
     $apiUrl = "https://api.openweathermap.org/data/2.5/weather?q={$city}&units=metric&appid={$apiKey}";
 
