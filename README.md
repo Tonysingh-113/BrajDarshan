@@ -1,4 +1,4 @@
-# 🛕 BrajDarshan – Explore the Divine Land
+# 🛕 BrajDarshan. – Explore the Divine Land
 
 **BrajDarshan** is a tourism-focused wiki and travel assistance platform dedicated to exploring the spiritual and cultural richness of the **Braj region**. Built with **HTML, CSS, JavaScript, PHP, and MySQL**, it offers detailed information about temples, heritage sites, festivals, and traditions. The platform also includes **basic booking features** for accommodations and guided tours, along with a secure **admin panel and login system** for managing content and bookings.
 
